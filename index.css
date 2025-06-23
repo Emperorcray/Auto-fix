@@ -29,10 +29,24 @@ body{
         color: #01447a;
     }
     .nav_link1{
+        width: 30vw;
+        display: flex;
+        justify-content: space-evenly;
         border: 1px solid black;
     }
-    .nav_link1>a{
+    .nav_link2{
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid black;
+    }
+    .nav_link1>a,.nav_link2>a{
         text-decoration: none;
         color: #01447a;
+        font-weight: 600;
+    }
+    .nav_link1>a:hover{
+        color: #f97316;
+        text-decoration: underline 2px solid #f97316;
     }
 }
