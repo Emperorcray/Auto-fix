@@ -10,18 +10,17 @@ body{
 }
 @media screen and (min-width:1200px){
     header{
-        height: 20vh;
+        height: 11vh;
         width: 100%;
-        border: 1px solid;
     }
     nav{
         height: 10vh;
         width: 100%;
-        border: 1px solid;
         background-color: white;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        position: fixed;
     }
     .logo{
         font-size: 20px;
@@ -32,21 +31,129 @@ body{
         width: 30vw;
         display: flex;
         justify-content: space-evenly;
-        border: 1px solid black;
     }
     .nav_link2{
+        height: 6vh;
         width: 20vw;
         display: flex;
         justify-content: space-evenly;
-        border: 1px solid black;
+        align-items: center;
     }
-    .nav_link1>a,.nav_link2>a{
+    .nav_link1>a,.bookings,.location{
         text-decoration: none;
         color: #01447a;
         font-weight: 600;
     }
-    .nav_link1>a:hover{
+    .nav_link1>a:hover,.bookings:hover,.location:hover{
         color: #f97316;
         text-decoration: underline 2px solid #f97316;
+    }
+    .sign_up{
+        color: white;
+        background-color: #f97316;
+        text-decoration: none;
+        height: 4vh;
+        width: 6vw;
+        border-radius: 5px 5px 5px 5px;
+        font-size: 13px;
+        display: grid;
+        place-content: center;
+    }
+    section{
+        height: 200vh;
+        width: 100%;
+        border: 1px solid;
+    }
+    .main_img{
+        height: 100vh;
+        width: 100%;
+        background-image: url("images/mechanic\ fixing\ a\ car.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .title_1{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+        width: 80vw;
+        margin-left: 30px;
+    }
+    .title_2{
+        color: white;
+        width: 60vw;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .Schedule_appointment{
+        background-color: #f97316;
+        color: white;
+        text-decoration: none;
+        width: 14vw;
+        display: inline-block;
+        text-align: center;
+        height: 6vh;
+        align-content: center;
+        margin-left: 30px;
+        font-size: 13px;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 20px;
+    }
+    .summary{
+        height: 30vh;
+        width: 100%;
+        background-color: #f6f6f6;
+        display: grid;
+        place-content: center;
+    }
+    .summary>div{
+        height: 20vh;
+        width: 60vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .summary_info{
+        height: 15vh;
+        width: 10vw;
+        align-content: center;
+    }
+    .summary_info>p{
+        font-weight: 700;
+        text-align: center;
+    }
+    .summary_info>div{
+        font-size: 14px;
+        text-align: center;
+    }
+    .features{
+        height: 70vh;
+        width: 100%;
+        border: 1px solid;
+        display: grid;
+        place-content: center;
+    }
+    .features_heading{
+        background-color: white;
+        text-align: center;
+        color: #01447a;
+        font-size: 24px;
+        font-weight:600;
+    }
+    .features_key{
+        height: 50vh;
+        width: 95vw;
+        border: 1px solid;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .key_features{
+        height: 30vh;
+        width: 18vw;
+        border: 1px solid gray;
     }
 }
