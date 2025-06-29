@@ -60,7 +60,7 @@ body{
         place-content: center;
     }
     section{
-        height: 400vh;
+        height: 600vh;
         width: 100%;
         border: 1px solid;
     }
@@ -210,5 +210,131 @@ body{
     .reasons>p{
         color: #01447a;
         font-weight: 600;
+    }
+    .service_package{
+        height: 60vh;
+        width: 100%;
+        background-color: white;
+        align-content: center;
+    }
+    .service_package_heading{
+        width: 30vw;
+        color: #01447a;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .services{
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .Packages{
+        height: 40vh;
+        width: 20vw;
+        border: 1px solid gray;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .Packages:hover{
+        border: 2px solid gray;
+    }
+    .Packages>img{
+        height: 23vh;
+        width: 19vw;
+        margin-top: 4px;
+        margin-left: 6px;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .name_of_service{
+        width: 15vw;
+        color: #01447a;
+        font-weight: 600;
+        margin-left: 8px;
+    }
+    .price{
+        font-weight: 700;
+        width: 10vw;
+        margin-left: 8px;
+    }
+    .Packages>a{
+        border: 1px solid #f97316;
+        display: inline-block;
+        width: 14vw;
+        height: 5vh;
+        text-decoration: none;
+        color: white;
+        background-color: #f97316;
+        align-content: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 30px;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .How_it_works{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .works_img{
+        height: 78vh;
+        width: 97.5vw;
+        background-image: url("images/mechanic-fixing-the\ engine.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        align-content: center;
+    }
+    .How_it_works_heading{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .How_it_works_title{
+        color: #f97316;
+        width: 40vw;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .steps{
+        height: 44vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .steps>div{
+        background-color: #feccaa;
+        height: 35vh;
+        width: 18vw;
+        border: 1px solid #feccaa;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .steps_heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .steps_heading>i{
+        color: #f97316;
+        font-size: 28px;
+        font-weight: 800;
+        margin-left: 10px;
+    }
+    .steps_heading>p{
+        font-size: 28px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+    .steps_title{
+        width: 15vw;
+        color: #01447a;
+        margin-left: 13px;
+        font-weight: 700;
     }
 }
