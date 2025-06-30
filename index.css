@@ -337,4 +337,39 @@ body{
         margin-left: 13px;
         font-weight: 700;
     }
+    .Testimonials{
+        height: 80vh;
+        width: 100%;
+        align-content: center;
+        border: 1px solid black;
+        background: linear-gradient( to right , #355adb, #4a78e7, #6495ed);
+    }
+    .Testimonials_heading{
+        text-align: center;
+        color: white;
+        border: 1px solid black;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .Testimonials_title{
+        text-align: center;
+        color: #f97316;
+        font-size: 24px;
+        border: 1px solid black;
+    }
+    .Testimonials_info{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid black;
+    }
+    .Testimonials_info>div{
+        height: 40vh;
+        width: 30vw;
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid white;
+        background-color: #c4d7f91a;
+    }
 }
