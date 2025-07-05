@@ -8,8 +8,1301 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+@media screen and (min-width:731px) and (max-width:781px){
+    header{
+        height: 11vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+    }
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+        color: #01447a;
+    }
+     .sidebar{
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: black;
+        margin-left: -20px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+      
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+      
+    .sidenav a:hover {
+        color: bisque;
+    }
+      
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .nav_link1{
+        display: none;
+    }
+    .nav_link2{
+        height: 6vh;
+        width: 24vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bookings,.location{
+        text-decoration: none;
+        color: #01447a;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .bookings:hover,.location:hover{
+        color: #f97316;
+        text-decoration: underline 2px solid #f97316;
+    }
+    .sign_up{
+        color: white;
+        background-color: #f97316;
+        text-decoration: none;
+        height: 4vh;
+        width: 8vw;
+        border-radius: 5px 5px 5px 5px;
+        font-size: 12px;
+        display: grid;
+        place-content: center;
+    }
+    section{
+        height: 740vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 100vh;
+        width: 100%;
+        background-image: url("images/mechanic\ fixing\ a\ car.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .title_1{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+        width: 80vw;
+        margin-left: 30px;
+    }
+    .title_2{
+        color: white;
+        width: 60vw;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .Schedule_appointment{
+        background-color: #f97316;
+        color: white;
+        text-decoration: none;
+        width: 18vw;
+        display: inline-block;
+        text-align: center;
+        height: 6vh;
+        align-content: center;
+        margin-left: 30px;
+        font-size: 12px;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 20px;
+    }
+    .summary{
+        height: 30vh;
+        width: 100%;
+        background-color: #f6f6f6;
+        display: grid;
+        place-content: center;
+    }
+    .summary>div{
+        height: 20vh;
+        width: 63vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .summary_info{
+        height: 15vh;
+        width: 14vw;
+        align-content: center;
+    }
+    .summary_info>p{
+        font-weight: 700;
+        text-align: center;
+    }
+    .summary_info>div{
+        font-size: 13px;
+        text-align: center;
+    }
+    .features{
+        height: 70vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .features_heading{
+        background-color: white;
+        text-align: center;
+        color: #01447a;
+        font-size: 24px;
+        font-weight:600;
+    }
+    .features_key{
+        height: 50vh;
+        width: 95vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .key_features{
+        height: 40vh;
+        width: 18vw;
+        border: 1px solid gray;
+    }
+    .features_img{
+        text-align: center;
+    }
+    .features_img>img{
+        height: 8vh;
+        width: 5vw;
+    }
+    .key_features_heading{
+        color: #01447a;
+        text-align: center;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .why_choose_us{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .why_img{
+        height: 93vh;
+        width: 96vw;
+        background-image: url("images/background\ car.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        place-content: center;
+    }
+    .why_heading{
+        text-align: center;
+    }
+    .heading_1{
+        color: #01447a;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .why_reasons{
+        height: 23vh;
+        width: 80vw;
+        margin-top: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .reasons{
+        height: 10vh;
+        width: 12vw;
+        text-align: center;
+        align-content: center;
+    }
+    .reasons>i{
+        color: #f97316;
+    }
+    .reasons>p{
+        color: #01447a;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .service_package{
+        height: 60vh;
+        width: 100%;
+        background-color: white;
+        align-content: center;
+    }
+    .service_package_heading{
+        width: 30vw;
+        color: #01447a;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .services{
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .Packages{
+        height: 40vh;
+        width: 20vw;
+        border: 1px solid gray;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .Packages:hover{
+        border: 2px solid gray;
+    }
+    .Packages>img{
+        height: 23vh;
+        width: 19vw;
+        margin-top: 4px;
+        margin-left: 4px;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .name_of_service{
+        width: 16vw;
+        color: #01447a;
+        font-weight: 600;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+    .price{
+        font-weight: 700;
+        width: 10vw;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+    .Packages>a{
+        border: 1px solid #f97316;
+        display: inline-block;
+        width: 14vw;
+        height: 5vh;
+        text-decoration: none;
+        color: white;
+        background-color: #f97316;
+        align-content: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 25px;
+        border-radius: 6px 6px 6px 6px;
+        font-size: 13px;
+    }
+    .How_it_works{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .works_img{
+        height: 78vh;
+        width: 97.5vw;
+        background-image: url("images/mechanic-fixing-the\ engine.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        align-content: center;
+    }
+    .How_it_works_heading{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .How_it_works_title{
+        color: #f97316;
+        width: 40vw;
+        margin-left: 40px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .steps{
+        height: 44vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .steps>div{
+        background-color: #feccaa;
+        height: 35vh;
+        width: 18vw;
+        border: 1px solid #feccaa;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .steps_heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .steps_heading>i{
+        color: #f97316;
+        font-size: 24px;
+        font-weight: 800;
+        margin-left: 10px;
+    }
+    .steps_heading>p{
+        font-size: 24px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+    .steps_title{
+        width: 15vw;
+        color: #01447a;
+        margin-left: 13px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .Testimonials{
+        height: 80vh;
+        width: 100%;
+        align-content: center;
+        background: linear-gradient( to right , #355adb, #4a78e7, #6495ed);
+    }
+    .Testimonials_heading{
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .Testimonials_title{
+        text-align: center;
+        color: #f97316;
+        font-size: 24px;
+    }
+    .Testimonials_info{
+        height: 52vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Testimonials_info>div{
+        height: 34vh;
+        width: 28vw;
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid white;
+        background-color: #c4d7f91a;
+    }
+    .Testimonials_info_heading{
+        height: 7vh;
+        width: 100%;
+        display: flex;
+    }
+    .Testimonials_info_heading>p{
+        font-size: 38px;
+        color: #f97316;
+        margin-left: 10px;
+    }
+    .Testimonials_info_heading>img{
+        height: 8vh;
+        width: 8vw;
+        border-radius: 30px 30px 30px 30px;
+        margin-left: 60px;
+        margin-top: -28px;
+    }
+    .banner{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .banner_img{
+        height: 78vh;
+        width: 98vw;
+        background-image: url("images/side\ view\ of\ a\ porche.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-content: center;
+    }
+    .banner_title{
+        width: 60vw;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 20px;
+    }
+    .banner_title>span{
+        color: #f97316;
+    }
+    .banner_info{
+        height: 15vh;
+        width: 40vw;
+        border: 1px solid white;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .banner_img>a{
+        display: inline-block;
+        text-align: center;
+        height: 6vh;
+        width: 10vw;
+        background-color: #f97316;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .questions{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .questions_img{
+        height: 76vh;
+        width: 97vw;
+        background-image: url("images/questions.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-content: center;
+    }
+    .questions_heading{
+        text-align: center;
+        font-weight: 700;
+        color: #01447a;
+        font-size: 24px;
+    }
+    .questions_container{
+        height: 13vh;
+        width: 100%;
+        align-content: center;
+    }
+    /* Dropdown Button */
+    .dropbtn,.dropbtn2,.dropbtn3,.dropbtn4{
+        height: 8vh;
+        width: 30vw;
+        background-color: #f1f1f1;
+        border-radius: 10px 10px 10px 10px;
+        color: #4a78e7;
+        font-size: 12px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+    }
+    .dropbtn>i,.dropbtn2>i,.dropbtn3>i,.dropbtn4>i{
+        color: #01447a;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown,.dropdown2,.dropdown3,.dropdown4{
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content, .dropdown-content2,.dropdown-content3,.dropdown-content4{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 30vw;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 40px;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a,.dropdown-content2 a,.dropdown-content3 a,.dropdown-content4 a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover ,.dropdown-content2 a:hover{background-color: #ddd;}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+    .brands{
+        height: 60vh;
+        width: 100%;
+        border: 1px solid;
+        background-image: url("images/car\ parts\ background.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        align-content: center;
+    }
+    .brands_heading{
+        color: white;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .brands_title{
+        height: 6vh;
+        width: 100%;
+        border: 1px solid white;
+    }
+    .brand_logos{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .brand_logos>img{
+        height: 6vh;
+    }
+    footer{
+        height: 56vh;
+        width: 100%;
+        border: 1px solid;
+    }
+    .footer_1{
+        height: 50vh;
+        width: 100%;
+        border: 1px solid #feccaa;
+        background-color: #feccaa;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div_1{
+        height: 30vh;
+        width: 25vw;
+    }
+    .footer_div_1_title{
+        height: 13vh;
+        border: 1px solid;
+    }
+    .socials{
+        height: 7vh;
+        align-content: center;
+    }
+    .socials>a{
+        width: 3vw;
+        height: 4vh;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        border: 1px solid #f97316;
+        text-align: center;
+        align-content: center;
+        border-radius: 15px 15px 15px 15px;
+        font-size: 12px;
+    }
+    .socials>a:hover{
+        background-color: #f97316;
+    }
+    .footer_links{
+        height: 30vh;
+        width: 11vw;
+    }
+    .footer_links_heading{
+        font-weight: 700;
+    }
+    .footer_links>a{
+        text-decoration: none;
+        color: #01447a;
+        font-weight: 400;
+    }
+    .footer_links>a:hover{
+        color: #f97316;
+        text-decoration: underline 1px solid #f97316;
+    }
+    .contacts{
+        height: 30vh;
+        width: 18vw;
+    }
+    .contacts_heading{
+        font-weight: 700;
+    }
+    .contacts>p{
+        margin-top: 4px;
+    }
+    .footer_2{
+        height: 6vh;
+        width: 100%;
+        background-color: #01447a;
+        text-align: center;
+        color: white;
+        align-content: center;
+    }
+}
+@media screen and (min-width:782px) and (max-width:832px){
+    header{
+        height: 11vh;
+        width: 100%;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+    }
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+        color: #01447a;
+    }
+     .sidebar{
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: black;
+        margin-left: -20px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+      
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+      
+    .sidenav a:hover {
+        color: bisque;
+    }
+      
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .nav_link1{
+        display: none;
+    }
+    .nav_link2{
+        height: 6vh;
+        width: 24vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bookings,.location{
+        text-decoration: none;
+        color: #01447a;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .bookings:hover,.location:hover{
+        color: #f97316;
+        text-decoration: underline 2px solid #f97316;
+    }
+    .sign_up{
+        color: white;
+        background-color: #f97316;
+        text-decoration: none;
+        height: 4vh;
+        width: 8vw;
+        border-radius: 5px 5px 5px 5px;
+        font-size: 12px;
+        display: grid;
+        place-content: center;
+    }
+    section{
+        height: 740vh;
+        width: 100%;
+    }
+    .main_img{
+        height: 100vh;
+        width: 100%;
+        background-image: url("images/mechanic\ fixing\ a\ car.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+    }
+    .title_1{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+        width: 80vw;
+        margin-left: 30px;
+    }
+    .title_2{
+        color: white;
+        width: 60vw;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .Schedule_appointment{
+        background-color: #f97316;
+        color: white;
+        text-decoration: none;
+        width: 18vw;
+        display: inline-block;
+        text-align: center;
+        height: 6vh;
+        align-content: center;
+        margin-left: 30px;
+        font-size: 12px;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 20px;
+    }
+    .summary{
+        height: 30vh;
+        width: 100%;
+        background-color: #f6f6f6;
+        display: grid;
+        place-content: center;
+    }
+    .summary>div{
+        height: 20vh;
+        width: 63vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .summary_info{
+        height: 15vh;
+        width: 14vw;
+        align-content: center;
+    }
+    .summary_info>p{
+        font-weight: 700;
+        text-align: center;
+    }
+    .summary_info>div{
+        font-size: 13px;
+        text-align: center;
+    }
+    .features{
+        height: 70vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .features_heading{
+        background-color: white;
+        text-align: center;
+        color: #01447a;
+        font-size: 24px;
+        font-weight:600;
+    }
+    .features_key{
+        height: 50vh;
+        width: 95vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .key_features{
+        height: 40vh;
+        width: 18vw;
+        border: 1px solid gray;
+    }
+    .features_img{
+        text-align: center;
+    }
+    .features_img>img{
+        height: 8vh;
+        width: 5vw;
+    }
+    .key_features_heading{
+        color: #01447a;
+        text-align: center;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .why_choose_us{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .why_img{
+        height: 93vh;
+        width: 96vw;
+        background-image: url("images/background\ car.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        place-content: center;
+    }
+    .why_heading{
+        text-align: center;
+    }
+    .heading_1{
+        color: #01447a;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .why_reasons{
+        height: 23vh;
+        width: 80vw;
+        margin-top: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .reasons{
+        height: 10vh;
+        width: 12vw;
+        text-align: center;
+        align-content: center;
+    }
+    .reasons>i{
+        color: #f97316;
+    }
+    .reasons>p{
+        color: #01447a;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .service_package{
+        height: 60vh;
+        width: 100%;
+        background-color: white;
+        align-content: center;
+    }
+    .service_package_heading{
+        width: 30vw;
+        color: #01447a;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .services{
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .Packages{
+        height: 40vh;
+        width: 20vw;
+        border: 1px solid gray;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .Packages:hover{
+        border: 2px solid gray;
+    }
+    .Packages>img{
+        height: 23vh;
+        width: 19vw;
+        margin-top: 4px;
+        margin-left: 4px;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .name_of_service{
+        width: 16vw;
+        color: #01447a;
+        font-weight: 600;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+    .price{
+        font-weight: 700;
+        width: 10vw;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+    .Packages>a{
+        border: 1px solid #f97316;
+        display: inline-block;
+        width: 14vw;
+        height: 5vh;
+        text-decoration: none;
+        color: white;
+        background-color: #f97316;
+        align-content: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 25px;
+        border-radius: 6px 6px 6px 6px;
+        font-size: 13px;
+    }
+    .How_it_works{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .works_img{
+        height: 78vh;
+        width: 97.5vw;
+        background-image: url("images/mechanic-fixing-the\ engine.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        align-content: center;
+    }
+    .How_it_works_heading{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .How_it_works_title{
+        color: #f97316;
+        width: 40vw;
+        margin-left: 40px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .steps{
+        height: 44vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .steps>div{
+        background-color: #feccaa;
+        height: 35vh;
+        width: 18vw;
+        border: 1px solid #feccaa;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .steps_heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .steps_heading>i{
+        color: #f97316;
+        font-size: 24px;
+        font-weight: 800;
+        margin-left: 10px;
+    }
+    .steps_heading>p{
+        font-size: 24px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+    .steps_title{
+        width: 15vw;
+        color: #01447a;
+        margin-left: 13px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .Testimonials{
+        height: 80vh;
+        width: 100%;
+        align-content: center;
+        background: linear-gradient( to right , #355adb, #4a78e7, #6495ed);
+    }
+    .Testimonials_heading{
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .Testimonials_title{
+        text-align: center;
+        color: #f97316;
+        font-size: 24px;
+    }
+    .Testimonials_info{
+        height: 52vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Testimonials_info>div{
+        height: 34vh;
+        width: 28vw;
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid white;
+        background-color: #c4d7f91a;
+    }
+    .Testimonials_info_heading{
+        height: 7vh;
+        width: 100%;
+        display: flex;
+    }
+    .Testimonials_info_heading>p{
+        font-size: 38px;
+        color: #f97316;
+        margin-left: 10px;
+    }
+    .Testimonials_info_heading>img{
+        height: 8vh;
+        width: 8vw;
+        border-radius: 30px 30px 30px 30px;
+        margin-left: 60px;
+        margin-top: -28px;
+    }
+    .banner{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .banner_img{
+        height: 78vh;
+        width: 98vw;
+        background-image: url("images/side\ view\ of\ a\ porche.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-content: center;
+    }
+    .banner_title{
+        width: 60vw;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 20px;
+    }
+    .banner_title>span{
+        color: #f97316;
+    }
+    .banner_info{
+        height: 15vh;
+        width: 40vw;
+        border: 1px solid white;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .banner_img>a{
+        display: inline-block;
+        text-align: center;
+        height: 6vh;
+        width: 10vw;
+        background-color: #f97316;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .questions{
+        height: 80vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .questions_img{
+        height: 76vh;
+        width: 97vw;
+        background-image: url("images/questions.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-content: center;
+    }
+    .questions_heading{
+        text-align: center;
+        font-weight: 700;
+        color: #01447a;
+        font-size: 24px;
+    }
+    .questions_container{
+        height: 13vh;
+        width: 100%;
+        align-content: center;
+    }
+    /* Dropdown Button */
+    .dropbtn,.dropbtn2,.dropbtn3,.dropbtn4{
+        height: 8vh;
+        width: 30vw;
+        background-color: #f1f1f1;
+        border-radius: 10px 10px 10px 10px;
+        color: #4a78e7;
+        font-size: 13px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+    }
+    .dropbtn>i,.dropbtn2>i,.dropbtn3>i,.dropbtn4>i{
+        color: #01447a;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown,.dropdown2,.dropdown3,.dropdown4{
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content, .dropdown-content2,.dropdown-content3,.dropdown-content4{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 30vw;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 40px;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a,.dropdown-content2 a,.dropdown-content3 a,.dropdown-content4 a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover ,.dropdown-content2 a:hover{background-color: #ddd;}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+    .brands{
+        height: 60vh;
+        width: 100%;
+        border: 1px solid;
+        background-image: url("images/car\ parts\ background.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        align-content: center;
+    }
+    .brands_heading{
+        color: white;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .brands_title{
+        height: 6vh;
+        width: 100%;
+        border: 1px solid white;
+    }
+    .brand_logos{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .brand_logos>img{
+        height: 6vh;
+    }
+    footer{
+        height: 56vh;
+        width: 100%;
+        border: 1px solid;
+    }
+    .footer_1{
+        height: 50vh;
+        width: 100%;
+        border: 1px solid #feccaa;
+        background-color: #feccaa;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div_1{
+        height: 30vh;
+        width: 25vw;
+    }
+    .footer_div_1_title{
+        height: 13vh;
+        border: 1px solid;
+    }
+    .socials{
+        height: 7vh;
+        align-content: center;
+    }
+    .socials>a{
+        width: 3vw;
+        height: 5vh;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        border: 1px solid #f97316;
+        text-align: center;
+        align-content: center;
+        border-radius: 15px 15px 15px 15px;
+    }
+    .socials>a:hover{
+        background-color: #f97316;
+    }
+    .footer_links{
+        height: 30vh;
+        width: 11vw;
+    }
+    .footer_links_heading{
+        font-weight: 700;
+    }
+    .footer_links>a{
+        text-decoration: none;
+        color: #01447a;
+        font-weight: 400;
+    }
+    .footer_links>a:hover{
+        color: #f97316;
+        text-decoration: underline 1px solid #f97316;
+    }
+    .contacts{
+        height: 30vh;
+        width: 18vw;
+    }
+    .contacts_heading{
+        font-weight: 700;
+    }
+    .contacts>p{
+        margin-top: 4px;
+    }
+    .footer_2{
+        height: 6vh;
+        width: 100%;
+        background-color: #01447a;
+        text-align: center;
+        color: white;
+        align-content: center;
+    }
+}
 @media screen and (min-width:834px) and (max-width:884px){
-      header{
+    header{
         height: 11vh;
         width: 100%;
     }
