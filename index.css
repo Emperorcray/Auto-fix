@@ -9,7 +9,7 @@ body{
 
 }
 @media screen and (min-width:374px) and (max-width:424px){
-     header{
+    header{
         height: 11vh;
         width: 100%;
     }
@@ -23,12 +23,12 @@ body{
         position: fixed;
     }
     .logo{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         color: #01447a;
     }
     .sidebar{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         cursor: pointer;
         color: black;
         margin-left: -20px;
@@ -70,8 +70,8 @@ body{
         display: none;
     }
     .nav_link2{
-        height: 6vh;
-        width: 28vw;
+        height: 5vh;
+        width: 30vw;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -90,7 +90,7 @@ body{
         color: white;
         background-color: #f97316;
         text-decoration: none;
-        height: 4vh;
+        height: 3.5vh;
         width: 13vw;
         border-radius: 5px 5px 5px 5px;
         font-size: 12px;
@@ -102,7 +102,7 @@ body{
         width: 100%;
     }
     .main_img{
-        height: 60vh;
+        height: 40vh;
         width: 100%;
         background-image: url("images/mechanic\ fixing\ a\ car.jpg");
         background-position: center;
@@ -128,10 +128,10 @@ body{
         background-color: #f97316;
         color: white;
         text-decoration: none;
-        width: 29vw;
+        width: 33vw;
         display: inline-block;
         text-align: center;
-        height: 6vh;
+        height: 4vh;
         align-content: center;
         margin-left: 30px;
         font-size: 12px;
@@ -139,31 +139,32 @@ body{
         margin-top: 20px;
     }
     .summary{
-        height: 24vh;
+        height: 16vh;
         width: 100%;
         background-color: #f6f6f6;
         display: grid;
         place-content: center;
     }
     .summary>div{
-        height: 20vh;
-        width: 70vw;
+        height: 14vh;
+        width: 76vw;
         background-color: white;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .summary_info{
-        height: 15vh;
+        height: 10vh;
         width: 16vw;
         align-content: center;
     }
     .summary_info>p{
+        font-size: 12px;
         font-weight: 700;
         text-align: center;
     }
     .summary_info>div{
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
     }
     .features{
@@ -186,18 +187,19 @@ body{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        flex-wrap: wrap;
     }
     .key_features{
-        height: 40vh;
-        width: 18vw;
+        height: 20vh;
+        width: 22vw;
         border: 1px solid gray;
     }
     .features_img{
         text-align: center;
     }
     .features_img>img{
-        height: 7vh;
-        width: 7vw;
+        height: 5vh;
+        width: 8vw;
     }
     .key_features_heading{
         color: #01447a;
@@ -206,13 +208,13 @@ body{
         font-size: 11px;
     }
     .why_choose_us{
-        height: 75vh;
+        height: 55vh;
         width: 100%;
         display: grid;
         place-content: center;
     }
     .why_img{
-        height: 70vh;
+        height: 50vh;
         width: 96vw;
         background-image: url("images/background\ car.png");
         background-repeat: no-repeat;
@@ -220,7 +222,7 @@ body{
         background-size: cover;
         display: grid;
         place-content: center;
-        gap: 170px;
+        gap: 160px;
     }
     .why_heading{
         text-align: center; 
@@ -229,17 +231,18 @@ body{
         color: #01447a;
         font-size: 24px;
         font-weight: 600;
+        margin-top: 20px;
     }
     .why_reasons{
-        height: 23vh;
-        width: 90vw;
+        height: 20vh;
+        width: 94vw;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
     .reasons{
         height: 10vh;
-        width: 14vw;
+        width: 16vw;
         text-align: center;
         align-content: center;
     }
@@ -249,16 +252,16 @@ body{
     .reasons>p{
         color: #01447a;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 11px;
     }
     .service_package{
-        height: 60vh;
+        height: 45vh;
         width: 100%;
         background-color: white;
         align-content: center;
     }
     .service_package_heading{
-        width: 38vw;
+        width: 45vw;
         color: #01447a;
         font-weight: 600;
         margin-top: 20px;
@@ -273,7 +276,7 @@ body{
         align-items: center;
     }
     .Packages{
-        height: 36vh;
+        height: 26vh;
         width: 22vw;
         border: 1px solid gray;
         border-radius: 6px 6px 6px 6px;
@@ -282,7 +285,7 @@ body{
         border: 2px solid gray;
     }
     .Packages>img{
-        height: 18vh;
+        height: 10vh;
         width: 21vw;
         margin-top: 4px;
         margin-left: 3px;
@@ -304,17 +307,17 @@ body{
     .Packages>a{
         border: 1px solid #f97316;
         display: inline-block;
-        width: 16vw;
-        height: 5vh;
+        width: 18vw;
+        height: 4vh;
         text-decoration: none;
         color: white;
         background-color: #f97316;
         align-content: center;
         text-align: center;
         margin-top: 10px;
-        margin-left: 14px;
+        margin-left: 8px;
         border-radius: 6px 6px 6px 6px;
-        font-size: 11px;
+        font-size: 10px;
     }
     .How_it_works{
         height: 80vh;
@@ -346,17 +349,18 @@ body{
         font-size: 13px;
     }
     .steps{
-        height: 44vh;
+        height: 55vh;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        flex-wrap: wrap;
         margin-top: 20px;
     }
     .steps>div{
         background-color: #feccaa;
-        height: 35vh;
-        width: 18vw;
+        height: 20vh;
+        width: 25vw;
         border: 1px solid #feccaa;
         border-radius: 5px 5px 5px 5px;
     }
@@ -376,9 +380,9 @@ body{
         margin-right: 10px;
     }
     .steps_title{
-        width: 15vw;
+        width: 100%;
         color: #01447a;
-        margin-left: 13px;
+        text-align: center;
         font-weight: 700;
         font-size: 11px;
     }
@@ -402,6 +406,7 @@ body{
     .Testimonials_info{
         height: 52vh;
         width: 100%;
+        border: 1px solid;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
