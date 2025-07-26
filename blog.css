@@ -63,9 +63,8 @@ body{
         place-content: center;
     }
     section{
-        height: 600vh;
+        height: 484vh;
         width: 100%;
-        border: 1px solid;
     }
     .main_img_container{
         height: 108vh;
@@ -227,5 +226,102 @@ body{
         height: 50vh;
         width: 20vw;
         border: 1px solid;
+    }
+    .all_blog_post{
+        height: 240vh;
+        width: 100%;
+        align-content: center;
+    }
+    .all_blog_heading{
+        color: #01447a;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .all_posts_container{
+        height: 220vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .all_posts_container>div{
+        height: 60vh;
+        width: 25vw;
+        border: 1px solid;
+    }
+    footer{
+        height: 56vh;
+        width: 100%;
+    }
+    .footer_1{
+        height: 50vh;
+        width: 100%;
+        border: 1px solid #feccaa;
+        background-color: #feccaa;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer_div_1{
+        height: 30vh;
+        width: 25vw;
+    }
+    .footer_div_1_title{
+        height: 13vh;
+        border: 1px solid;
+    }
+    .socials{
+        height: 7vh;
+        align-content: center;
+    }
+    .socials>a{
+        width: 3vw;
+        height: 5vh;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        border: 1px solid #f97316;
+        text-align: center;
+        align-content: center;
+        border-radius: 15px 15px 15px 15px;
+    }
+    .socials>a:hover{
+        background-color: #f97316;
+    }
+    .footer_links{
+        height: 30vh;
+        width: 11vw;
+    }
+    .footer_links_heading{
+        font-weight: 700;
+    }
+    .footer_links>a{
+        text-decoration: none;
+        color: #01447a;
+        font-weight: 400;
+    }
+    .footer_links>a:hover{
+        color: #f97316;
+        text-decoration: underline 1px solid #f97316;
+    }
+    .contacts{
+        height: 30vh;
+        width: 18vw;
+    }
+    .contacts_heading{
+        font-weight: 700;
+    }
+    .contacts>p{
+        margin-top: 4px;
+    }
+    .footer_2{
+        height: 6vh;
+        width: 100%;
+        background-color: #01447a;
+        text-align: center;
+        color: white;
+        align-content: center;
     }
 }
