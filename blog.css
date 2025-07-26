@@ -22,6 +22,7 @@ body{
         align-items: center;
         position: fixed;
     }
+    /* This is a sidebar that only displays in a smaller breaakpoint */
     .sidebar{display: none;}
     .sidenav{display: none;}
     .logo{
@@ -60,5 +61,171 @@ body{
         font-size: 13px;
         display: grid;
         place-content: center;
+    }
+    section{
+        height: 600vh;
+        width: 100%;
+        border: 1px solid;
+    }
+    .main_img_container{
+        height: 108vh;
+        width: 100%;
+    }
+    .main_links{
+        height: 8vh;
+        width: 15vw;
+        align-content: center;
+        text-align: center;
+    }
+    .main_link_1,.main_link_2{
+        text-decoration: none;
+    }
+    .main_link_1{
+        color: #f97316;
+    }
+    .main_link_2{
+        color: #01447a;
+        font-weight: 600;
+    }
+    .main_img{
+        width: 100%;
+        height: 100vh;
+        background-image: url("images/mechanic\ in\ the\ blogs\ page.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        align-content: center;
+    }
+    .title_1{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+        width: 80vw;
+        margin-left: 30px;
+    }
+    .title_2{
+        color: white;
+        height: 30vh;
+        width: 60vw;
+        border: 1px solid white;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .Schedule_appointment{
+        background-color: #f97316;
+        color: white;
+        text-decoration: none;
+        width: 14vw;
+        display: inline-block;
+        text-align: center;
+        height: 6vh;
+        align-content: center;
+        margin-left: 30px;
+        font-size: 13px;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 20px;
+    }
+    .resources{
+        height: 135vh;
+        width: 100%;
+        background-image: url("images/backgroung\ for\ blogs\ page.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .resources_heading{
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        align-content: center;
+    }
+    .resources_heading_1{
+        font-weight: 700;
+        color: #01447a;
+        font-size: 24px;
+    }
+    .resources_heading_2{
+        color: #01447a;
+        margin-top: 10px;
+    }
+    .resources_links{
+        height: 11vh;
+        width: 100%;
+        background-color: #fff1d5;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .resources_links>a{
+        color: #01447a;
+        text-decoration: none;
+    }
+    .resources_links>a:hover{
+        color: #f97316;
+        text-decoration: underline 1px solid;
+    }
+    .resources_links>input{
+        height: 4vh;
+        text-indent: 5px;
+    }
+    .recent_blog_container{
+        height: 103vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .recent_blog{
+        height: 96vh;
+        width: 94vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .recent_blog_1{
+        height: 90vh;
+        width: 40vw;
+    }
+    /* Heading in the recent blog post first div */
+    .recent_blog_1_heading{
+        color: #01447a;
+        font-weight: 700;
+        height: 6vh;
+        font-size: 18px;
+    }
+    .recent_blog_1>img{
+        width: 100%;
+        height: 50vh;
+    }
+    .recent_blog_1_subtitle{
+        border: 1px solid;
+        height: 8vh;
+    }
+    .recent_blog_1_title{
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .recent_blog_1_info{
+        height: 10vh;
+        width: 100%;
+        border: 1px solid;
+    }
+    .recent_blog_2{
+        height: 65vh;
+        width: 23vw;
+    }
+    .recent_blog_2>img{
+        height: 30vh;
+        width: 100%;
+        margin-top: 8px;
+    }
+    .recent_blog_3{
+        height: 50vh;
+        width: 20vw;
+        border: 1px solid;
     }
 }
